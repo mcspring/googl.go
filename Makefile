@@ -1,13 +1,13 @@
 include $(GOROOT)/src/Make.inc
 
-TARG=goo
+TARG=googl
 GOFMT=gofmt -s -space=true -tabindent=false -tabwidth=4
 
 GOFILES=\
-	goo.go\
+	googl.go\
 
 include $(GOROOT)/src/Make.pkg
 
 format:
-	$(GOFMT) -w goo.go
-	$(GOFMT) -w goo_test.go
+	$(GOFMT) -w googl.go
+	$(GOFMT) -w googl_test.go
