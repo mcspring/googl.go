@@ -1,8 +1,8 @@
 # googl.go
 
-googl.go is an open source implementation of Google URL Shortener API service writen in go
+googl.go is an open source implementation of Google URL Shortener API service writen in go.
 
-googl.go is licensed under the BSD-style Lincense, which can be found in the LICENSE file.
+googl.go is licensed under the BSD-style lincense, which can be found in the LICENSE file.
 
 ## Installation
 
@@ -47,10 +47,12 @@ This will output:
 	Short URL: http://goo.gl/fbsS
 	Long URL: http://www.google.com/
 
+if success, or other error message.
+
 ## Attention
 
 googl.go only implement [url.insert](http://code.google.com/apis/urlshortener/v1/reference.html#method_urlshortener_url_insert) 
-and [url.get](http://code.google.com/apis/urlshortener/v1/reference.html#method_urlshortener_url_get) of Google URL Shortener API now.
+and [url.get](http://code.google.com/apis/urlshortener/v1/reference.html#method_urlshortener_url_get) of Google URL Shortener APIs now.
 
 ## About
 
