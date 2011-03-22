@@ -2,8 +2,7 @@
 
 googl.go is an open source implementation of Google URL Shortener API service writen in go
 
-googl.go is licensed under the Apache Lincense, Version 2.0
-(http://www.apache.org/licenses/LICENSE-2.0.html).
+googl.go is licensed under the BSD-style Lincense, which can be found in the LICENSE file.
 
 ## Installation
 
